@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="turtletest" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="bin/data/shaders/noise.frag" />
+		<Unit filename="bin/data/shaders/noise.vert" />
+		<Unit filename="bin/data/type/verdana.ttf" />
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/LRule.cpp" />
+		<Unit filename="src/LRule.h" />
+		<Unit filename="src/LSys.cpp" />
+		<Unit filename="src/LSys.h" />
+		<Unit filename="src/Turtle.cpp" />
+		<Unit filename="src/Turtle.h" />
+		<Unit filename="src/fft.cpp" />
+		<Unit filename="src/fft.h" />
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

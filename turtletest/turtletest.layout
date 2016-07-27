@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="bin/data/shaders/noise.frag" open="0" top="0" tabpos="3">
+		<Cursor position="282" topLine="0" />
+	</File>
+	<File name="bin/data/shaders/noise.vert" open="0" top="0" tabpos="4">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="src/LRule.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/LSys.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src/Turtle.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="4829" topLine="206" />
+	</File>
+	<File name="src/Turtle.h" open="0" top="0" tabpos="0">
+		<Cursor position="16" topLine="0" />
+	</File>
+	<File name="src/main.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="706" topLine="0" />
+	</File>
+	<File name="src/testApp.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="844" topLine="9" />
+	</File>
+	<File name="src/testApp.h" open="1" top="0" tabpos="4">
+		<Cursor position="2199" topLine="79" />
+	</File>
+</CodeBlocks_layout_file>
